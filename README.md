@@ -39,6 +39,7 @@ For each question in this section, please provide where you got your information
 For the next part of the assignment, you will look at your sample data.
 
 ## State the research question of your mini-project. (1 point)
+[Statement here]
 
 ## What would you define as your 'signal' you are looking for in your data?  That is, what might constitute as finding something of interest to your question? (5 pts)
 
