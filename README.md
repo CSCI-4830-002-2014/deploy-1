@@ -46,11 +46,11 @@ For processing big data, the memory barrier is the amount of RAM in the computer
 For the next part of the assignment, you will look at your sample data.
 
 ## State the research question of your mini-project. (1 point)
-[Statement here]
+The data is the measured noise level from the parking lot outside my window, which I will try to use to determine at what time of the day the parking lot is the most active and thus when it is better to study in school vs at home.
 
 ## What would you define as your 'signal' you are looking for in your data?  That is, what might constitute as finding something of interest to your question? (5 pts)
 
-[Response]
+Finding some specific time range of the day (only looking at weekdays or weekends) when the noise level is the highest. It would also be interesting to see if weekends in general are higher in noise level, and whether there is any significant difference between the average signal for weekdays and weekends.
 
 ## Insert a small sample of your data where you notice something that might be a signal and explain why you think so. (5 pts)
 
