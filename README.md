@@ -54,23 +54,26 @@ Finding some specific time range of the day (only looking at weekdays or weekend
 
 ## Insert a small sample of your data where you notice something that might be a signal and explain why you think so. (5 pts)
 
-[Insert Data snippet]
-[Explanation]
+![image](dataplot.png?raw=true)
+In the image the x-axis is the number of days since Thursday 11 September 00:01am. Between 1.6 and 1.8 there is a "noise peak" that is going on for about 20 minutes.
+This can be seen as a signal, since it indicates that I have had something loud outside my window. The signal could either be seen as the average noise level over
+different times of the day, or the number of high-noise events during the day.
 
 ## Provide a data snippet of some noise you've encountered in your data collection, then try to explain it. (5 pts)  
 
-[Data snippet]
-[Explanation]
+![image](dataplot2.png?raw=true)
+There is one peak at about 9.5 that is much larger than any other data point.
 
 ## How might you go about getting rid of the noise? (Don't worry, we'll learn more about this, but try to think of a first method) (5 pt)
 
-[Explan your method]
+Outliers (data points with values far from the average) could be removed. Several data points could be combined by averaging the noise over e.g. a 5 minute window,
+so that the noise level plot gets smoother.
 
 ## For your research question, do you think your biggest challenge is in the sampling (i.e., getting valid data) or the analysis (i.e., cleaning noise out of your data)?  Explain (4 pts)
-
-[Explanation]
+Since the research question is about measuring noise, the noise in the data could be data as well. The data noise is likely only present for a few seconds at a time, so 
+the number of data noise values should be small. Thus analysing the data should be the biggest challenge.
 
 ## In thinking ahead about the big project, what additional Arduino tools may be helpful for getting higher fidelity data?  Do a bit of your own research here.
 
-[Explain at least one tool]
-[Provide URL to it]
+A good way to get better fidelity data would be to use multiple audio sensors / arduino devices and measure data at nearby locations. Then if the data differs
+much it is likely that one of them is noisy.
