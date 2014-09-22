@@ -5,7 +5,7 @@ For each question in this section, please provide where you got your information
 
 ## What maximum bit size does an Arduino Uno use and what's the largest number it can represent? (3 pts)
 
-64,
+64 (with `uint64_t`),
 2^64=18446744073709551616
 [source URL](http://www.nongnu.org/avr-libc/user-manual/group__avr__stdint.html)
 
@@ -19,7 +19,7 @@ For each question in this section, please provide where you got your information
 ## What is the maximum bit representation you can get from data using analogRead()?   (2 pts)
 
 [phone?]
-The Atmega328's ADC has 10 bit resolution.
+The Atmega328's ADC has 10 bit resolution. The maximum value you can get from `analogRead()` is 2^10-1=1023.
 [Source URL](http://www.atmel.com/Images/doc8161.pdf)
 
 ## What is the maximum sampling rate of an analogRead() in arduino? (3 pts)
@@ -52,17 +52,20 @@ The data is the measured noise level from the parking lot outside my window, whi
 
 Finding some specific time range of the day (only looking at weekdays or weekends) when the noise level is the highest. It would also be interesting to see if weekends in general are higher in noise level, and whether there is any significant difference between the average signal for weekdays and weekends.
 
+The signal could either be seen as the average noise level for the hours of the day, or the number of high-noise events during the day.
+
 ## Insert a small sample of your data where you notice something that might be a signal and explain why you think so. (5 pts)
 
 ![image](dataplot.png?raw=true)
 In the image the x-axis is the number of days since Thursday 11 September 00:01am. Between 1.6 and 1.8 there is a "noise peak" that is going on for about 20 minutes.
-This can be seen as a signal, since it indicates that I have had something loud outside my window. The signal could either be seen as the average noise level over
-different times of the day, or the number of high-noise events during the day.
+This can be seen as a signal, since it indicates that I have had something loud outside my window. 
+
+For the whole dataset the signal is clearly 24-hour cyclic, and some days appear to be "louder" than others.
 
 ## Provide a data snippet of some noise you've encountered in your data collection, then try to explain it. (5 pts)  
 
 ![image](dataplot2.png?raw=true)
-There is one peak at about 9.5 that is much larger than any other data point.
+There is one peak at about 9.5 that is much larger than any other data point. Why it is there is unclear, but it could be the wind or something physically touching the sound sensor.
 
 ## How might you go about getting rid of the noise? (Don't worry, we'll learn more about this, but try to think of a first method) (5 pt)
 
