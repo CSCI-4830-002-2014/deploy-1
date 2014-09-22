@@ -5,20 +5,20 @@ For each question in this section, please provide where you got your information
 
 ## What maximum bit size does an Arduino Uno use and what's the largest number it can represent? (3 pts)
 
-[size]
-[number]
-[source URL]
+32 bits
+4,294,967,295
+https://learn.sparkfun.com/tutorials/data-types-in-arduino
 
 ## What amount of RAM is embedded on the arduino board? (2 pts)
-
-[RAM size]
-[source URL]
+Flash Memory	32 KB (ATmega328) of which 0.5 KB used by bootloader
+SRAM	2 KB (ATmega328)
+EEPROM	1 KB (ATmega328)
+http://arduino.cc/en/Main/arduinoBoardUno
 
 ## What is the maximum bit representation you can get from data using analogRead()?   (2 pts)
-
-[phone]
-[size in bits]
-[Source URL]
+10 bits
+0 -> 1023
+http://arduino.cc/en/Reference/analogRead
 
 ## What is the maximum sampling rate of an analogRead() in arduino? (3 pts)
 
