@@ -36,14 +36,13 @@ My laptop would probably not have enough space to store too much data (without s
 
 The card on the arduino is limited in size.  Additionally, the 10,000 sampling-per-second may not be enough for some advanced frequency/graphical analysis (although my personal project should be fine).  I ran some Arduino code that I found on the internet and discovered that it instantly crashed my computer, so I suppose that it also a risk somehow.  Lastly, there is always a risk of excessively “noisy” data or dying batteries, which require a lot of cleaning and calibration to be used accurately.
 
-[Provide Explanation]
 
 --------------------
 
 For the next part of the assignment, you will look at your sample data.
 
 ## State the research question of your mini-project. (1 point)
-How can we identify frequency of an input and, if within a reasonable scope, how can we use pitch analysis to “guess” the particular key of a song.
+How can we identify frequency of an input and, if within a reasonable scope, how can we use pitch analysis to “guess” the particular key of a song?
 
 ## What would you define as your 'signal' you are looking for in your data?  That is, what might constitute as finding something of interest to your question? (5 pts)
 
@@ -51,9 +50,9 @@ Correctly identifying a pitch would be most interesting to me because that can c
 
 ## Insert a small sample of your data where you notice something that might be a signal and explain why you think so. (5 pts)
 
-[B-flat played on accordion](DATALOG_accordBflat.CSV)
+[B-flat played on accordion](DATALOG_accordBflat.CSV) and
 [E played on accordion](DATALOG_accordE.CSV)
-Here are snippets of a B-flat and an E being played on an accordion.  I chose an accordion because it sustains better than, say, a piano or guitar.  I’d like to say that I can see some wave-like readings, but it’s really hard to tell at this stage.
+These are snippets of a B-flat and an E being played on an accordion.  I chose an accordion because it sustains better than, say, a piano or guitar.  I’d like to say that I can see some wave-like readings, but it’s really hard to tell at this stage.
 
 ## Provide a data snippet of some noise you've encountered in your data collection, then try to explain it. (5 pts)  
 
