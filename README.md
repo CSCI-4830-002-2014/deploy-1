@@ -114,4 +114,4 @@ For this particular research question, the biggest challenge is the analysis. By
 
 This data logging shield for Arduino has similar functionality to the microSD shield we used, though one key feature it has is a Real Time Clock. It's possible that I just couldn't figure it out on my own, but I believe the Arduino is unable to maintain accurate time on its own. This shield has a clock onboard that lasts for years. Correct timing of data is vital to data analysis so that specific events can be identified within a dataset. 
 
-(Data logging shield)[http://www.adafruit.com/products/1141?gclid=COW83Iyb9MACFaQ7Mgod4QMA_w]
+(Data logging shield) [http://www.adafruit.com/products/1141?gclid=COW83Iyb9MACFaQ7Mgod4QMA_w]
