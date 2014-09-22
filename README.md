@@ -46,17 +46,79 @@ I am looking for people talking, and trying to see when the hill gets busy.
 
 ## Insert a small sample of your data where you notice something that might be a signal and explain why you think so. (5 pts)
 
-[Insert Data snippet]
-It looks as if there are people talking here, based on the higher levels of output.
+8.43,267
+
+7.81,268
+
+8.12,269
+
+7.55,270
+
+8.77,271
+
+9.43,272
+
+9.17,273
+
+7.42,274
+
+8.06,275
+
+9.38,276
+
+9.33,277
+
+10.05,278
+
+8.94,279
+
+8.77,280
+
+8.19,281
+
+9.17,282
+
+8.31,283
+
+8.89,284
+
+8.94,285
+
+9.17,286
+
+8.77,287
+
+8.94,288
+
+It looks as if there is music playing here, the baseline output is about a 5, this is a significant spike.
 
 ## Provide a data snippet of some noise you've encountered in your data collection, then try to explain it. (5 pts)  
 
-[Data snippet]
-The numbers here are just way too high to be reasonable, this must be a read error of some sort
+6.08,19245
+
+5.74,19246
+
+5.74,19247
+
+5.74,19248
+
+5.74,19249
+
+10.63,19250
+
+5.66,19251
+
+5.66,19252
+
+5.83,19253
+
+5.83,19254
+
+The 10.63 here happens during a quiet part of the night when nothing is happening. This must be a read error of some sort, it seems unlikely that a loud noise occured without my knowledge.
 
 ## How might you go about getting rid of the noise? (Don't worry, we'll learn more about this, but try to think of a first method) (5 pt)
 
-Possibly eliminate outliers from the dataset. This is difficult to do without possibly destroying relevant data though. (What if a spike is because of someone yelping or something dropping?) The best way to remove noise is to do it before we have the numerical data by trying to ensure the signal the mocrophone is picking up is the best availiable. Intelligent data gathering.
+Possibly eliminate outliers from subsets of the dataset. This is difficult to do without possibly destroying relevant data though. (What if a spike is because of someone yelping or something dropping? Also, a spike because of noise might not be considered an outlier even if it is noise.) The best way to remove noise is to do it before we have the numerical data by trying to ensure the signal the mocrophone is picking up is the best availiable. Intelligent data gathering.
 
 ## For your research question, do you think your biggest challenge is in the sampling (i.e., getting valid data) or the analysis (i.e., cleaning noise out of your data)?  Explain (4 pts)
 
