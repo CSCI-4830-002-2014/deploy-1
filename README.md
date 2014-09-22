@@ -5,34 +5,41 @@ For each question in this section, please provide where you got your information
 
 ## What maximum bit size does an Arduino Uno use and what's the largest number it can represent? (3 pts)
 
-[size]
-[number]
-[source URL]
+64,
+2^64=18446744073709551616
+[source URL](http://www.nongnu.org/avr-libc/user-manual/group__avr__stdint.html)
+
+**Note:** Assuming unsigned integers. Floating point values can be larger. The processor's instruction set only supports 8-bit integers, but larger integer types and floating point types can be emulated by the compiler.
 
 ## What amount of RAM is embedded on the arduino board? (2 pts)
 
-[RAM size]
-[source URL]
+2K Bytes (Internal SRAM)
+[source URL](http://www.atmel.com/Images/doc8161.pdf)
 
 ## What is the maximum bit representation you can get from data using analogRead()?   (2 pts)
 
-[phone]
-[size in bits]
-[Source URL]
+[phone?]
+The Atmega328's ADC has 10 bit resolution.
+[Source URL](http://www.atmel.com/Images/doc8161.pdf)
 
 ## What is the maximum sampling rate of an analogRead() in arduino? (3 pts)
 
-[sampling rate]
-[source URL]
+"about 10,000 times a second."
+[source URL](http://arduino.cc/en/Reference/analogRead)
 
 ## When working with "Big Data" on your own laptop, what memory barriers might you run into?  Explain your answer. [5 pts]
 
-[Provide Explanation]
+For storing big data on your laptop, the barrier is the capacity of the harddrive/ssd since this determines how much data you can store.
+
+For processing big data, the memory barrier is the amount of RAM in the computer since this limits the amount of data you can process.
 
 
 ## What limitations may you run into doing data collection via arduino? (5 pts)
 
-[Provide Explanation]
+* Not enough memory to store all data
+* Not being able to store data due to limited data write bandwidth 
+* Not enough processing power / RAM to process the data before storing it
+
 
 --------------------
 
