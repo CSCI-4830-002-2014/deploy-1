@@ -5,32 +5,33 @@ For each question in this section, please provide where you got your information
 
 ## What maximum bit size does an Arduino Uno use and what's the largest number it can represent? (3 pts)
 
-[size]
-[number]
-[source URL]
+32 bits
+-3.4028235E+38 to 3.4028235E+38
+http://arduino.cc/en/Reference/Float
 
 ## What amount of RAM is embedded on the arduino board? (2 pts)
 
-[RAM size]
-[source URL]
+32 KB
+http://arduino.cc/en/Main/arduinoBoardUno
 
 ## What is the maximum bit representation you can get from data using analogRead()?   (2 pts)
 
-[phone]
-[size in bits]
-[Source URL]
+0->1023
+10
+http://arduino.cc/en/Reference/AnalogRead
 
 ## What is the maximum sampling rate of an analogRead() in arduino? (3 pts)
 
-[sampling rate]
-[source URL]
+10,000 reads per second
+http://arduino.cc/en/Reference/AnalogRead
 
 ## When working with "Big Data" on your own laptop, what memory barriers might you run into?  Explain your answer. [5 pts]
 
-[Provide Explanation]
+When dealing with many data points, we will hit problems if our data exceeds the built in data types, and we will also run into problems if we need to process more data than the Arduino can hold in its memory.
 
 
 ## What limitations may you run into doing data collection via arduino? (5 pts)
+Your Arduino may not be able to sample fast enough, it vulnerable to environmental factors, and must be plugged in to a power source to be able to run.
 
 [Provide Explanation]
 
