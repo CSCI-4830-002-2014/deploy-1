@@ -10,9 +10,8 @@ For each question in this section, please provide where you got your information
 https://learn.sparkfun.com/tutorials/data-types-in-arduino
 
 ## What amount of RAM is embedded on the arduino board? (2 pts)
-Flash Memory	32 KB (ATmega328) of which 0.5 KB used by bootloader
-SRAM	2 KB (ATmega328)
-EEPROM	1 KB (ATmega328)
+The ATmega328 has 32 KB (with 0.5 KB used for the bootloader). 
+It also has 2 KB of SRAM and 1 KB of EEPROM
 http://arduino.cc/en/Main/arduinoBoardUno
 
 ## What is the maximum bit representation you can get from data using analogRead()?   (2 pts)
@@ -21,29 +20,25 @@ http://arduino.cc/en/Main/arduinoBoardUno
 http://arduino.cc/en/Reference/analogRead
 
 ## What is the maximum sampling rate of an analogRead() in arduino? (3 pts)
-
-[sampling rate]
-[source URL]
+10,000 times/second
+http://arduino.cc/en/Reference/analogRead
 
 ## When working with "Big Data" on your own laptop, what memory barriers might you run into?  Explain your answer. [5 pts]
-
-[Provide Explanation]
+We can hit a limit quickly with RAM because that is where our data recorded will be written to. In addition, we can easily reach the limits on the size for data types. 
 
 
 ## What limitations may you run into doing data collection via arduino? (5 pts)
-
-[Provide Explanation]
+I noticed the silent reading changed over time when the Arduino was being battery powered. This is a big issue because now are values are inconsistent for the same sounds and volume level.
 
 --------------------
 
 For the next part of the assignment, you will look at your sample data.
 
 ## State the research question of your mini-project. (1 point)
-[Statement here]
+When throwing a party, what time does it get the loudest?
 
 ## What would you define as your 'signal' you are looking for in your data?  That is, what might constitute as finding something of interest to your question? (5 pts)
-
-[Response]
+I want to take the total lenth of the party (in seconds). And determine as a ratio, when was it the loudest, and when did it start to get quieter (when did people leave).
 
 ## Insert a small sample of your data where you notice something that might be a signal and explain why you think so. (5 pts)
 
