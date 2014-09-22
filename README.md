@@ -9,13 +9,13 @@ For each question in this section, please provide where you got your information
 
 32767
 
-(http://arduino.cc/en/Reference/int)[http://arduino.cc/en/Reference/int]
+[http://arduino.cc/en/Reference/int](http://arduino.cc/en/Reference/int)
 
 ## What amount of RAM is embedded on the arduino board? (2 pts)
 
 2 kB
 
-(http://arduino.cc/en/Main/arduinoBoardUno)[http://arduino.cc/en/Main/arduinoBoardUno]
+[http://arduino.cc/en/Main/arduinoBoardUno](http://arduino.cc/en/Main/arduinoBoardUno)
 
 ## What is the maximum bit representation you can get from data using analogRead()?   (2 pts)
 
@@ -23,13 +23,13 @@ For each question in this section, please provide where you got your information
 
 10 bit
 
-(http://arduino.cc/en/Main/arduinoBoardUno)[http://arduino.cc/en/Main/arduinoBoardUno]
+[http://arduino.cc/en/Main/arduinoBoardUno](http://arduino.cc/en/Main/arduinoBoardUno)
 
 ## What is the maximum sampling rate of an analogRead() in arduino? (3 pts)
 
 10,000 times per second
 
-(http://arduino.cc/en/Reference/analogRead)[http://arduino.cc/en/Reference/analogRead]
+[http://arduino.cc/en/Reference/analogRead](http://arduino.cc/en/Reference/analogRead)
 
 ## When working with "Big Data" on your own laptop, what memory barriers might you run into?  Explain your answer. [5 pts]
 
@@ -114,4 +114,4 @@ For this particular research question, the biggest challenge is the analysis. By
 
 This data logging shield for Arduino has similar functionality to the microSD shield we used, though one key feature it has is a Real Time Clock. It's possible that I just couldn't figure it out on my own, but I believe the Arduino is unable to maintain accurate time on its own. This shield has a clock onboard that lasts for years. Correct timing of data is vital to data analysis so that specific events can be identified within a dataset. 
 
-(Data logging shield) [http://www.adafruit.com/products/1141?gclid=COW83Iyb9MACFaQ7Mgod4QMA_w]
+[http://www.adafruit.com/products/1141?gclid=COW83Iyb9MACFaQ7Mgod4QMA_w](http://www.adafruit.com/products/1141?gclid=COW83Iyb9MACFaQ7Mgod4QMA_w)
