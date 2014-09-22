@@ -41,24 +41,48 @@ When throwing a party, what time does it get the loudest?
 I want to take the total lenth of the party (in seconds). And determine as a ratio, when was it the loudest, and when did it start to get quieter (when did people leave).
 
 ## Insert a small sample of your data where you notice something that might be a signal and explain why you think so. (5 pts)
+8.12	1869
+8.19	1870
+8.54	1871
+8.60	1872
+7.62	1873
+8.37	1874
+13.64	1875
+11.70	1876
+8.37	1877
+7.68	1878
+8.60	1879
+21.84	1880
+17.44	1881
+13.82	1882
+9.33	1883
+11.05	1884
+9.11	1885
+10.44	1886
+9.95	1887
+9.75	1888
+14.59	1889
+10.54	1890
 
-[Insert Data snippet]
-[Explanation]
+The voltage reading was at a constant libration around 8 volts until this point in the code when it consistently rose. I think this is when the first visitors arrived.
 
 ## Provide a data snippet of some noise you've encountered in your data collection, then try to explain it. (5 pts)  
-
-[Data snippet]
-[Explanation]
+8.60	15520
+22.02	15521
+43.35	15522
+14.25	15523
+15.46	15524
+7.55	15525
+At the very end of the collection, I got this huge spikes. It may have been a battery issue.
 
 ## How might you go about getting rid of the noise? (Don't worry, we'll learn more about this, but try to think of a first method) (5 pt)
+I could always perform a floor function to tone down the extremely loud values received, or if I were to conclude they are error points I can simply remove all points with values above a threshold number.
 
-[Explan your method]
 
 ## For your research question, do you think your biggest challenge is in the sampling (i.e., getting valid data) or the analysis (i.e., cleaning noise out of your data)?  Explain (4 pts)
+Cleaning. There is not much I can change with the sampling, so making a useful visualization will be most dificult.
 
-[Explanation]
 
 ## In thinking ahead about the big project, what additional Arduino tools may be helpful for getting higher fidelity data?  Do a bit of your own research here.
 
-[Explain at least one tool]
-[Provide URL to it]
+Even the wires of the arduino pick up noise because they can act as antennas. This user found a way to hack a medium pass filter to get only the values of interest http://www.elcojacobs.com/eleminating-noise-from-sensor-readings-on-arduino-with-digital-filtering/
