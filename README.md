@@ -53,7 +53,7 @@ A base line can be identified when first setting up the arduino, as the room was
 
 ## Insert a small sample of your data where you notice something that might be a signal and explain why you think so. (5 pts)
 
-[169.99,2:53:40
+169.99,2:53:40
 
 170.09,2:53:41
 
@@ -69,13 +69,13 @@ A base line can be identified when first setting up the arduino, as the room was
 
 170.03,2:53:48
 
-170.03,2:53:49]
+170.03,2:53:49
 
-[It's difficult to tell as the measurement was only recorded once per second and the sound gradually increased, but the sound levels at 8pm were about 167 while at 11pm when people began to come over, the level had increased to 170.]
+It's difficult to tell as the measurement was only recorded once per second and the sound gradually increased, but the sound levels at 8pm were about 167 while at 11pm when people began to come over, the level had increased to 170.
 
 ## Provide a data snippet of some noise you've encountered in your data collection, then try to explain it. (5 pts)  
 
-[
+
 181.57,3:44:55
 
 187.81,3:44:56
@@ -98,20 +98,20 @@ A base line can be identified when first setting up the arduino, as the room was
 
 197.79,3:45:7
 
-237.35,3:45:8]
+237.35,3:45:8
 
-[The values demonstrate a sharp spike at 3:45:3, in contrast to the values of 170-173 that preceded this snippet. The values increased steadily before the spike, however, which may suggest someone turned up the volume on the stereo rather than noise.]
+The values demonstrate a sharp spike at 3:45:3, in contrast to the values of 170-173 that preceded this snippet. The values increased steadily before the spike, however, which may suggest someone turned up the volume on the stereo rather than noise.
 
 ## How might you go about getting rid of the noise? (Don't worry, we'll learn more about this, but try to think of a first method) (5 pt)
 
-[Perhaps alternative averaging methods could better smooth the data. Data analysis could also be performed to remove outliers. ]
+Perhaps alternative averaging methods could better smooth the data. Data analysis could also be performed to remove outliers.
 
 ## For your research question, do you think your biggest challenge is in the sampling (i.e., getting valid data) or the analysis (i.e., cleaning noise out of your data)?  Explain (4 pts)
 
-[For this particular research question, the biggest challenge is the analysis. By simply keeping the arduino in the living room, I've introduced a lot of variability. Proximity to the sensor makes a signficiant difference in the measured values, and with so many people in the room and a variety of different sounds, it is difficult to control outlying events, which in turn makes it hard to identify whether or not outliers in the data were simply noise or a meaningful event.]
+For this particular research question, the biggest challenge is the analysis. By simply keeping the arduino in the living room, I've introduced a lot of variability. Proximity to the sensor makes a signficiant difference in the measured values, and with so many people in the room and a variety of different sounds, it is difficult to control outlying events, which in turn makes it hard to identify whether or not outliers in the data were simply noise or a meaningful event.
 
 ## In thinking ahead about the big project, what additional Arduino tools may be helpful for getting higher fidelity data?  Do a bit of your own research here.
 
 This data logging shield for Arduino has similar functionality to the microSD shield we used, though one key feature it has is a Real Time Clock. It's possible that I just couldn't figure it out on my own, but I believe the Arduino is unable to maintain accurate time on its own. This shield has a clock onboard that lasts for years. Correct timing of data is vital to data analysis so that specific events can be identified within a dataset. 
 
-(http://www.adafruit.com/products/1141?gclid=COW83Iyb9MACFaQ7Mgod4QMA_w)[http://www.adafruit.com/products/1141?gclid=COW83Iyb9MACFaQ7Mgod4QMA_w]
+(Data logging shield)[http://www.adafruit.com/products/1141?gclid=COW83Iyb9MACFaQ7Mgod4QMA_w]
