@@ -5,34 +5,36 @@ For each question in this section, please provide where you got your information
 
 ## What maximum bit size does an Arduino Uno use and what's the largest number it can represent? (3 pts)
 
-32 bits 
-4,294,967,295 
+32 bits,
+4,294,967,295,
 https://learn.sparkfun.com/tutorials/data-types-in-arduino
 
 ## What amount of RAM is embedded on the arduino board? (2 pts)
 
-RAM = 32 KB with 2 KB of SRAM and 1 KB of EEPROM
+RAM = 32 KB with 2 KB of SRAM and 1 KB of EEPROM,
 http://arduino.cc/en/Main/arduinoBoardUno
 
 ## What is the maximum bit representation you can get from data using analogRead()?   (2 pts)
 
-[1023]
-[10 bits]
-[http://arduino.cc/en/Reference/analogRead]
+1023,
+10 bits,
+http://arduino.cc/en/Reference/analogRead
 
 ## What is the maximum sampling rate of an analogRead() in arduino? (3 pts)
 
-[sampling rate]
-[source URL]
+10,000 times per second,
+http://arduino.cc/en/Reference/analogRead
 
 ## When working with "Big Data" on your own laptop, what memory barriers might you run into?  Explain your answer. [5 pts]
 
-[Provide Explanation]
+A possible memory barrier issue that you can run into might have to do when trying to analyze or index a lot of data in splunk. You might not be able to store it properly in memory for proper speed or timely results.
 
 
 ## What limitations may you run into doing data collection via arduino? (5 pts)
 
-[Provide Explanation]
+With the Arduino, we are limited by two main things: 
+1. Power, we might not have batteries at hand keep the device going for truly sustained observation. 
+2. Storage, we might fill up our SD card and be unable to take any further measurments without overwriting important data. 
 
 --------------------
 
