@@ -7,7 +7,7 @@ For each question in this section, please provide where you got your information
 
 [10]
 [1023]
-[http://arduino.cc/en/Reference/analogRead]
+[http://arduino.cc/en/Main/arduinoBoardUno]
 
 ## What amount of RAM is embedded on the arduino board? (2 pts)
 
