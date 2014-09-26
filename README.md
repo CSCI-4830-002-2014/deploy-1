@@ -41,31 +41,75 @@ With the Arduino, we are limited by two main things:
 For the next part of the assignment, you will look at your sample data.
 
 ## State the research question of your mini-project. (1 point)
-[Statement here]
+To figure out at what time my living room is loudest. 
 
 ## What would you define as your 'signal' you are looking for in your data?  That is, what might constitute as finding something of interest to your question? (5 pts)
 
-[Response]
+My theory is that the ambient noise level of ambient noise is directly tied to when my roommates and I get back to the house. 
 
 ## Insert a small sample of your data where you notice something that might be a signal and explain why you think so. (5 pts)
 
-[Insert Data snippet]
-[Explanation]
+time    noise       index	
+1		25.9		1	
+		
+3		31.43		2
+		
+4		20.57		3
+		
+5		20.9		4	
+		
+6		20.98		5
+		
+7		21.42		6
+		
+8		23.32		7
+		
+9		23.75		8
+		
+11		21.7		9	
+			
+12		22.11		10
+		
+13		19.67		11
+		
+14		19.77		12
+		
+15		24.06		13
+		
+16		22.16		14
+		
+17		41.95		15
+		
+19		22.56		16
+
+Here is our noise levels after various times. We can see  clearly modulation during a normal conversation around a dinner table
 
 ## Provide a data snippet of some noise you've encountered in your data collection, then try to explain it. (5 pts)  
 
-[Data snippet]
-[Explanation]
+time 	noise 	index
+
+15837	176.79	13637
+		
+15838	178.57	13638
+		
+1		163.42	1
+		
+1		163.38	1
+		
+1		163.38	1
+
+Here we see that the arduino must have somehow reset itself. 15,838 seconds after the experiment began. 
 
 ## How might you go about getting rid of the noise? (Don't worry, we'll learn more about this, but try to think of a first method) (5 pt)
 
-[Explan your method]
+My first method would simply be adding the time of when the device shut off, to when it reset. Although this might not be accurate because I have no idea how long it was off for. 
 
 ## For your research question, do you think your biggest challenge is in the sampling (i.e., getting valid data) or the analysis (i.e., cleaning noise out of your data)?  Explain (4 pts)
 
-[Explanation]
+I think the most difficult challenge with this assignment is cleaning out the noise because I don't know if I can even find any useful data from this project. 
 
 ## In thinking ahead about the big project, what additional Arduino tools may be helpful for getting higher fidelity data?  Do a bit of your own research here.
 
-[Explain at least one tool]
-[Provide URL to it]
+We can attach this antenna to the arduino and have it uplaoding its data in real time so we can know if/when it shuts down and have easier access to quick data analysis. 
+
+[http://ebay.to/1qAtMoz]
